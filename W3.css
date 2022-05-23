@@ -1,0 +1,92 @@
+* {box-sizing: border-box;}
+.maintitle {
+	position:absolute;
+	color:white;
+	top:30%;
+	left:10%;
+}
+li {list-style: none;}
+.content {
+	margin-top:5%;
+	float:left;
+	width:100%;
+	padding:0px;
+}
+.content a {
+	background-color:#b8f4f3;
+	width:100%;
+	padding:10px;
+	margin:0px;
+	border: 1px outset #b1154a;
+}
+.content p {
+	background-color:blue;
+	color:white;
+	width:100%;
+	padding:10px;
+	margin:0px;
+	border: 1px outset #b1154a;
+}
+.nav1 {
+	width:100%;
+	float:right;
+	margin-left:5%;
+	margin-top:3%;
+	padding: 0px 10px 10px 10px;
+}
+.nav1 a {
+	width:100%;
+	padding:10px;
+	background-color:#b8f4f3;
+}
+.video-intro {
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+.food {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	margin-top:20px;
+}	
+.foods {
+	width:50%;
+	float:left;
+	height:100%;
+	margin:0px;
+	padding:5px;
+}	
+.footer {
+	clear:both;
+	text-align:center;
+	padding-bottom:20px;
+	margin:0px;
+}
+.footer li {
+	background-color:#4E85FA;
+	padding:5px;
+	color:black;
+	font-weight: bold;
+}
+.footer li a {
+	color:black;
+}
+.footer ul {
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+.menubar1 {
+	width:20%;
+	background-color:red;
+}
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+
+}
+@media only screen and (min-width: 992px) {
+  /* For desktop: */
+	.foods {width:33.33%;}
+	.nav1 {padding-right:3%;}
+}
