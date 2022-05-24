@@ -38,6 +38,7 @@ li {list-style: none;}
 	width:100%;
 	padding:10px;
 	background-color:#b8f4f3;
+	font-family: 'Roboto Slab', serif;
 }
 .video-intro {
 	width:100%;
@@ -80,6 +81,8 @@ li {list-style: none;}
 .menubar1 {
 	width:20%;
 	background-color:red;
+}
+h1 {font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (min-width: 768px) {
   /* For tablets: */
